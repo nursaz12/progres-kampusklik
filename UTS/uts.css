@@ -1,0 +1,104 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+  }
+  
+  /* Body */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  header {
+    background-color: darkblue;
+    color: #fff;
+    padding: 10px 0 10px 0;
+    text-align: center;
+  }
+  
+  /* Main */
+  main {
+    display: flex;
+    flex: 1;
+    
+  }
+  
+  .navbar{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: brown;
+}
+
+/* Tombol Kembali ke Portofolio */
+.back-button {
+    background-color: pink;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    width: 90px; /* Lebar tombol */
+    height: 40px; /* Tinggi tombol */
+    display: inline-block; /* Membuat tombol menjadi elemen inline-block */
+    text-align: center; /* Pusatkan teks di dalam tombol */
+    display: flex;
+}
+
+.back-button:hover {
+    background-color: #423f3f;
+}
+
+
+  
+  /* Biodata */
+  .lamaran, .lamaran ul{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+
+
+.biodata{
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.biodata img{
+    width: 25%;
+    padding-top: 5px;
+}
+
+footer {
+    background-color: rgb(129, 129, 179);
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+  /* Media queries for mobile devices */
